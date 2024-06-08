@@ -1,15 +1,15 @@
 <!-- /about.php -->
 <?php include 'includes/header.php'; ?>
 <main>
-    <h1>About Us</h1>
+    <h1>About Us Page</h1>
     <?php
     $team = [
-        ["name" => "John Doe", "role" => "CEO"],
-        ["name" => "Jane Smith", "role" => "CTO"],
-        ["name" => "Emily Jones", "role" => "CFO"],
+        ["name" => "Joao", "role" => "CEO"],
+        ["name" => "Thiago", "role" => "CTO"],
+        ["name" => "Pedro", "role" => "CFO"],
     ];
     ?>
-    <h2>Our Team</h2>
+    <h2>Our Team Members</h2>
     <ul>
         <?php foreach ($team as $member): ?>
             <li><?= $member['name'] ?> - <?= $member['role'] ?></li>
